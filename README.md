@@ -1,4 +1,4 @@
 # WebsiteCSP
 
-# Manasa - create repository
-# Manasa - create js, css, php files
+# Lakshmi Manasa - create repository
+# Lakshmi Manasa - create js, css, php files
