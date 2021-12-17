@@ -1,0 +1,49 @@
+h1{
+    font-family: copperplate;
+    color: #3d5a80;
+    font-size: 100px;
+    text-align: center;
+}
+
+input[type = text], textarea{
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #e0fbfc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.body2{
+  background-color: #ee6c4d;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formContainer{
+  border-radius: 100px;
+}
+
+input[type = submit]{
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #ee6c4d;
+
+}
+
+input[type = submit]:hover{
+  background-color: #98c1d9;
+}
+
+label{
+  font-family: rockwell;
+  color: #3d5a80;
+}
+
+input{
+  font-family: rockwell;
+  color: black;
+}
