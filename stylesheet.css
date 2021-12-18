@@ -92,9 +92,14 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #d31885;
+    background-color: #133059;
+    color: #e0fbfc;
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .logo {
+    margin: 0%;
   }
