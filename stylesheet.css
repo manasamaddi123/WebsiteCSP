@@ -1,282 +1,288 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #3d5a80;
-    overflow: hidden;
-    border-radius: 15px;
-  }
-  
-  /* Style the links inside the navigation bar  */
-  .topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: League Gothic;
-  }
-  
-  /* Change the color of links on hover  */
-  .topnav a:hover {
-    background-color: #e0fbfc;
-    color: #133059;
-    border-radius: 15px;
-  }
-  
-  /* Add a color to the active/current link  */
-  .topnav a.active {
-    background-color: #c3dafa;
-    color: white;
-  }
-  
-  /* Three image containers (use 25% for four, and 50% for two, etc)  */
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
+  background-color: #3d5a80;
+  overflow: hidden;
+  border-radius: 15px;
+}
+ /* Style the links inside the navigation bar  */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: League Gothic;
+}
+ /* Change the color of links on hover  */
+.topnav a:hover {
+  background-color: #e0fbfc;
+  color: #133059;
+  border-radius: 15px;
+}
+ /* Add a color to the active/current link  */
+.topnav a.active {
+  background-color: #c3dafa;
+  color: white;
+}
+ /* Picture Stuff */
+/*Three image containers (use 25% for four, and 50% for two, etc)  */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-  /* Clear floats after image containers  */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+/* Clear floats after image containers  */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+.row {
+  display: flex;
+}
+ .column {
+  flex: 33.33%;
+  padding: 5px;
+}
 
-  /* Dropdown Stuff */
+/* Dropdown Stuff */
 
-  .dropdown {
-    float: right;
-    overflow: hidden;
-    border-radius: 15px;
-  }
-  
-  .dropdown .dropbtn {
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-size: 17px;
-    font-family: League Gothic;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #e0fbfc;
-    color: #133059;
-  }
-  
-  .dropdown-content {
-    border-radius: 15px;
-    display: none;
-    position: absolute;
-    background-color: #e0fbfc;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: #133059;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #133059;
-    color: #e0fbfc;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.dropdown {
+  float: right;
+  overflow: hidden;
+  border-radius: 15px;
+}
+ .dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-size: 17px;
+  font-family: League Gothic;
+  margin: 0;
+}
+ .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e0fbfc;
+  color: #133059;
+}
+ .dropdown-content {
+  border-radius: 15px;
+  display: none;
+  position: absolute;
+  background-color: #e0fbfc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ .dropdown-content a {
+  float: none;
+  color: #133059;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+ .dropdown-content a:hover {
+  background-color: #133059;
+  color: #e0fbfc;
+}
+ .dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  .logo {
-    margin: 0%;
-  }
+.logo {
+  margin: 0%;
+}
 
-  .menu{
-    border-color: #000a20ff;
-    background-color: #000a20ff;
-    padding: 15px;
-    display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-  
-  }
-  
-  button {
-    font-family:'Open Sans',sans-serif;
-    font-size: 13px;
-    color: white;
-    border: none;
-    background-color: #000a20ff;
-    margin: 5px;
-  
-  }
-  
-  button:hover {
-    color: #f7838d;
-    cursor: pointer; 
-  }
-  
-  img {
-    height: 400px;
-    width: 600px;
-    object-fit: cover;
-    margin: 50px;
-    padding: 0px;
-    border-radius: 15px;
-    opacity: 0.6;
-    
-  }
-  
-  img:hover{
-    cursor: pointer;
-    opacity: 1;
-    padding: 5px;
-    border: solid, 5px;
-    border-color: #ab1d79ff;
-  }
-  
-  
-  .employ{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-300px, 150px);
-  }
-  
-  .employ:hover{
-  opacity: 1;
-  }
-  
-  .stemWomen{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-310px, 150px);
-  }
-  
-  .stemWomen:hover{
-  opacity: 1;
-  }
-  
-  .offense{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-280px, 150px);
-  }
-  
-  .offense:hover{
-  opacity: 1;
-  }
-  
-  .matWomen{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-375px, 150px);
-  }
-  
-  .matWomen:hover{
-  opacity: 1;
-  }
-  
-  .abort{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-310px, 150px);
-  }
-  
-  .abort:hover{
-  opacity: 1;
-  }
-  
-  .birth{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-280px, 150px);
-  }
-  
-  .birth:hover{
-  opacity: 1;
-  }
-  
-  .child{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-300px, 150px);
-  }
-  
-  .child:hover{
-  opacity: 1;
-  }
-  
-  .edu{
-  opacity:0;
-  font-size: 20px;
-  padding: 40px;
-  margin: 0px;
-  transition: .5s ease;
-  position: absolute;
-  text-align:center;
-  transform: translate(-280px, 150px);
-  }
-  
-  .edu:hover{
-  opacity: 1;
-  }
-  p{
-    display: flex;
-    justify-content:center;
-  }
-  
-  *{
-    background-color: whitesmoke
-  }
+/* New Image Stuff
+button {
+font-family:'Open Sans',sans-serif;
+font-size: 13px;
+color: white;
+border: none;
+background-color: #000a20ff;
+margin: 5px;
+
+}
+
+button:hover {
+color: #f7838d;
+cursor: pointer;
+}
+
+img {
+height: 400px;
+width: 600px;
+object-fit: cover;
+margin: 50px;
+padding: 0px;
+border-radius: 15px;
+opacity: 0.6;
+
+}
+
+img:hover{
+cursor: pointer;
+opacity: 1;
+padding: 5px;
+border: solid, 5px;
+border-color: #ab1d79ff;
+}
+
+
+.employ{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-300px, 150px);
+}
+
+.employ:hover{
+opacity: 1;
+}
+
+.stemWomen{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-310px, 150px);
+}
+
+.stemWomen:hover{
+opacity: 1;
+}
+
+.offense{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+
+.offense:hover{
+opacity: 1;
+}
+
+.matWomen{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-375px, 150px);
+}
+
+.matWomen:hover{
+opacity: 1;
+}
+
+.abort{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-310px, 150px);
+}
+
+.abort:hover{
+opacity: 1;
+}
+
+.birth{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+
+.birth:hover{
+opacity: 1;
+}
+
+.child{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-300px, 150px);
+}
+
+.child:hover{
+opacity: 1;
+}
+
+.edu{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+
+.edu:hover{
+opacity: 1;
+}
+*/
+
+
+.content_img{
+position: relative;
+float: left;
+margin-right: 10px;
+}
+/* Child Text Container */
+.content_img div{
+position: absolute;
+bottom: 0;
+right: 0;
+background: black;
+color: white;
+margin-bottom: 5px;
+font-family: sans-serif;
+opacity: 0;
+visibility: hidden;
+-webkit-transition: visibility 0s, opacity 0.5s linear;
+transition: visibility 0s, opacity 0.5s linear;
+}
+/* Hover on Parent Container */
+.content_img:hover{
+cursor: pointer;
+opacity: 1;
+}
+.content_img:hover div{
+width: 150px;
+padding: 8px 15px;
+visibility: visible;
+opacity: 0.7;
+}
