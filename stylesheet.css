@@ -107,3 +107,176 @@
   .logo {
     margin: 0%;
   }
+
+  .menu{
+    border-color: #000a20ff;
+    background-color: #000a20ff;
+    padding: 15px;
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  
+  }
+  
+  button {
+    font-family:'Open Sans',sans-serif;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background-color: #000a20ff;
+    margin: 5px;
+  
+  }
+  
+  button:hover {
+    color: #f7838d;
+    cursor: pointer; 
+  }
+  
+  img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    margin: 50px;
+    padding: 0px;
+    border-radius: 15px;
+    opacity: 0.6;
+    
+  }
+  
+  img:hover{
+    cursor: pointer;
+    opacity: 1;
+    padding: 5px;
+    border: solid, 5px;
+    border-color: #ab1d79ff;
+  }
+  
+  
+  .employ{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-300px, 150px);
+  }
+  
+  .employ:hover{
+  opacity: 1;
+  }
+  
+  .stemWomen{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-310px, 150px);
+  }
+  
+  .stemWomen:hover{
+  opacity: 1;
+  }
+  
+  .offense{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-280px, 150px);
+  }
+  
+  .offense:hover{
+  opacity: 1;
+  }
+  
+  .matWomen{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-375px, 150px);
+  }
+  
+  .matWomen:hover{
+  opacity: 1;
+  }
+  
+  .abort{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-310px, 150px);
+  }
+  
+  .abort:hover{
+  opacity: 1;
+  }
+  
+  .birth{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-280px, 150px);
+  }
+  
+  .birth:hover{
+  opacity: 1;
+  }
+  
+  .child{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-300px, 150px);
+  }
+  
+  .child:hover{
+  opacity: 1;
+  }
+  
+  .edu{
+  opacity:0;
+  font-size: 20px;
+  padding: 40px;
+  margin: 0px;
+  transition: .5s ease;
+  position: absolute;
+  text-align:center;
+  transform: translate(-280px, 150px);
+  }
+  
+  .edu:hover{
+  opacity: 1;
+  }
+  p{
+    display: flex;
+    justify-content:center;
+  }
+  
+  *{
+    background-color: whitesmoke
+  }
