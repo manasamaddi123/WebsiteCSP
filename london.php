@@ -1,5 +1,5 @@
 <?php
-include_once 'paris.html';
+include_once 'london.html';
 require_once 'login.php';
 $conn=mysqli_connect($host,$user,$pass,$db);
 // Check connection
@@ -8,7 +8,7 @@ if (mysqli_connect_errno())
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($conn,"SELECT * FROM catalog where City ='Paris'");
+$result = mysqli_query($conn,"SELECT * FROM catalog where City ='London'");
 
 echo "<table border='1'>
 <tr>
