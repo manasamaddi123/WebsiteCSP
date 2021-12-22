@@ -1,0 +1,123 @@
+p{
+    border-color: #730220ff;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;  
+  }
+    
+  
+  img {
+    width: 700px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10%; 
+  }
+  
+  .imageVol {
+    display: flex;
+    justify-content: flex-end;
+  } 
+  /* .allInfo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .allInfo {
+    display: flex;
+    flex-direction: column;
+  } */
+   
+  /*
+  .cover {
+      background-color: #000a20ff;
+      padding: 0px;
+      margin: 0px;
+  }
+  .logo{
+      height: 150px;
+      width: 350;
+      margin:0px;
+  }
+  /*
+
+  .webName {
+      background-color: #000a20ff;
+      font-family: 'Verdana', sans-serif;
+      font-size: 70px;
+      color: white;
+      padding: 15px;
+      margin: 0px;
+  }
+  
+/*
+  .menu{
+      border-color: #000a20ff;
+      background-color: #000a20ff;
+      padding: 15px;
+      display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+  
+  }
+  */
+  
+  button {
+      font-family:'Open Sans',sans-serif;
+      font-size: 13px;
+      color: white;
+      border: none;
+      background-color: #000a20ff;
+  
+  }
+  
+  button:hover {
+      color: #c3dafa;
+      cursor: pointer; 
+  }
+  .intro{
+    background-color: #133059;
+    border-color:  #730220ff;
+    font-size: 40px;
+  }
+  
+  /*  
+  .allInfo{
+    background-color: rgb(233, 220, 220);;
+    border-radius: 10 px;
+    border: 10px solid  #730220ff; 
+    display: inline;
+  } */
+  
+  .body{
+   background-color:  #730220ff;
+  }
+  
+  .intro{
+    color: rgb(233, 220, 220);
+  }
+  
+  .blue{
+      background-color: rgb(49, 111, 245);
+  }
+  
+  .container{
+    display: flex;
+    border: 3px solid #fff;
+    padding: 10px;
+    background-color: #c3dafa;
+  }
+  
+  .box {
+      width: 50%;
+      float: left;
+      padding: 20px;
+      border: 2px solid #98c1d9;
+  }
+  
+  
+  body{
+    background-color: #98c1d9;
+  }
+  
+  .p {
+  font-family: Lucida Console;
+  }
