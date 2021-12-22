@@ -8,7 +8,7 @@ if (mysqli_connect_errno())
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($conn,"SELECT * FROM catalog where City ='Maui'");
+$result = mysqli_query($conn,"SELECT * FROM catalog where City ='Maui, Hawaii'");
 
 echo "<table border='1'>
 <tr>
