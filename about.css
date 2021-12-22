@@ -35,6 +35,13 @@ h1{
     text-align: center;
     font-size: 18px;
  }
+
+ ul{
+   font-family: 'Open Sans';
+   color:#e0fbfc;
+   text-align: center;
+   font-size: 18px;
+}
   
  .box2{
     width: 300px;
@@ -44,7 +51,7 @@ h1{
     background-color: #3d5a80;
     border-radius: 25px;
     position: relative;
-    left: 500;
+    left: 485;
     bottom: 890;
  }
   
@@ -56,6 +63,6 @@ h1{
     background-color: #3d5a80;
     border-radius: 25px;
     position: relative;
-    left: 1000;
-    bottom: 1780;
+    left: 973;
+    bottom: 1660;
  } 
