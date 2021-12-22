@@ -34,9 +34,9 @@ input[type = submit]{
 
 }
 
-input[type = submit]:hover{
+.submit-btn {
   background-color: #98c1d9;
-}
+
 
 label{
   font-family: rockwell;
@@ -47,3 +47,7 @@ input{
   font-family: rockwell;
   color: black;
 }
+
+/*  input[type = submit]:hover{
+  background-color: #98c1d9;
+} */
