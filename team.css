@@ -1,0 +1,87 @@
+/*{
+  margin: 0px;
+  padding: 0px;
+}*/
+.header {
+	background-color: #000a20ff;
+}
+body{
+  font-family:'Open Sans',sans-serif;
+  background-color: #3d5a80;
+  color: white;
+}
+.missionStatement{
+  width: 500px;
+}
+
+.bio{
+  width: 300px;
+}
+
+.profilePics{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.creatersInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cover {
+	background-color: #000a20ff;
+	padding: 0px;
+	margin: 0px;
+}
+.logo{
+	height: 150px;
+	width: 350;
+	margin:0px;
+}
+.webName {
+	background-color: #000a20ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: white;
+	padding: 15px;
+	margin: 0px;
+}
+
+.menu{
+	border-color: #000a20ff;
+	background-color: #000a20ff;
+	padding: 15px;
+	display: flex;
+  	flex-direction: row;
+ 	 justify-content: space-around;
+
+}
+
+button {
+	font-family:'Open Sans',sans-serif;
+	font-size: 13px;
+	color: white;
+	border: none;
+	background-color: #000a20ff;
+
+}
+
+button:hover {
+	color: #f7838d;
+	cursor: pointer; 
+}
+
+.blue{
+	background-color: #000a20ff;
+}
+
+h3{
+	font-size: 25px;
+}
+
+h1{
+	font-size: 50px;
+}
