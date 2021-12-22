@@ -21,25 +21,30 @@
  <head>
    <link rel="stylesheet" href="stylesheet.css" />
    <link rel="stylesheet" href="contact.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="contact.js" defer></script>
  </head>
  
  <title> Web Project </title>
- 
+
  <body id="contact-body" style="background-color: #d4e9fa">
   <h1> Contact US </h1>
   <label>If you have any questions or concerns, please do not hesitate to reach out! Our team will be in touch shortly.</label>
   <br>
   <br>
+     <!---
   <div class = "wrapper">
     <form>
-    <label>First Name:
-      <input class="first-input" type= "text"
+    <label>Full Name:
+      <input class="name-input" type= "text"
       placeholder="Your First Name..."></label>
     </label>
+  
     <label>Last Name:
       <input class="last-input" type= "text"
       placeholder="Your Last Name..."></label>
     </label>
+    
     <label>Email:
       <input class="email-input" type= "text"
       placeholder="Your Email..."></label>
@@ -49,10 +54,35 @@
       placeholder="Your message..."></label>
     </label>
     <br>
-    <button class="submit-btn">Submit Here!</button>
+    <button class="wish-btn">Submit Here!</button>
     </form>
+
     <section class - contactus>
     </section>
+  -->
+  
+  <div class="wrapper">
+    <form>
+      <label>Your Full Name: 
+        <input class="name-input" type="text" placeholder="Your full name..."></input>
+      </label>
+      <br>
+      <label>Your Email: 
+        <input class="email-input" type="text" placeholder="Your email..."></input>
+      </label>
+      <br>
+      <label>Send a Message:
+        <input class="message-input" type= "text"
+        placeholder="Your message..."></label>
+      </label>
+      <br>
+      <button class="wish-btn">Submit</button>
+    </form>
+    <section class = decoration>
+    </section>
+    <h2 class="creative-msg"></h2>
+    <h2 class="sign-thread"></h2>
+
   </div>
     
     <!--
@@ -80,3 +110,4 @@
 -->
   </div>
   </body>
+</html>
